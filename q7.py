@@ -1,0 +1,5 @@
+lado=(int(input('Digite o valor do lado do quadrado: ')))
+area=(lado ** 2)
+areaDobro=(area * 2)
+print('A área do quadrado é:', area)
+print('O dobro da área é:', areaDobro)
