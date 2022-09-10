@@ -11,9 +11,9 @@ latinhas = (litros_folga - 18 * latao) / 3.6
 latinhas_arredondado = math.ceil(latinhas)
 preco = latao * 80 + latinhas_arredondado * 25
 
-print ('a) Comprar apenas latas de 18 litros', math.ceil(litros/18))
-print ('b) Comprar apenas galões de 3.6 litros', math.ceil(litros/3.6))
-print ('Comprar latas e galões')
-print ('    Latas: ', latao)
-print ('    Galões: ', latinhas_arredondado)
+print ('a) Comprar apenas latas de 18 litros: R$ ', round(math.ceil(litros/18)*80,2))
+print ('b) Comprar apenas galões de 3.6 litros: R$ ', round(math.ceil(litros/3.6)*25,2))
+print ('Comprar latas e galões:')
+print ('    Latas: R$ ', round(latao*80,2))
+print ('    Galões: R$ ', round(latinhas_arredondado*25,2))
 print('='*14)
